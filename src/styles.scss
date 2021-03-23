@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+$primary-color: #11C76F;
+
+@font-face{
+  font-family: mainfont;
+  src: url('./assets/ppaybld.ttf');
+} 
+
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mainfont;
+}
+
+ul{
+  list-style: none;
+}

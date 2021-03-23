@@ -1,0 +1,9 @@
+<ul *ngIf="_receiverList">
+    <li *ngFor="let receiver of _receiverList">
+        <app-pay-user
+            [firstName]="receiver.name.first"
+            [photoLink]="receiver.picture.medium"
+        >
+        </app-pay-user>
+    </li>
+</ul>
